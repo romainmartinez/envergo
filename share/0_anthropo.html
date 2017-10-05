@@ -12013,7 +12013,7 @@ div#notebook {
     
 
     <span class="k">for</span> <span class="n">ivar</span><span class="p">,</span> <span class="n">ax</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">string_col</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span> <span class="n">axs</span><span class="o">.</span><span class="n">ravel</span><span class="p">()):</span>
-        <span class="n">d</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>  <span class="c1"># we make a copy to</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">outliers_fct</span><span class="p">:</span>
             <span class="n">outliers</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="n">ivar</span><span class="p">]</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">is_outlier</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="n">ivar</span><span class="p">])]</span>
             <span class="k">if</span> <span class="n">outliers</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
