@@ -1,0 +1,28 @@
+---
+title: Maximal elbow torque for task-specific evaluation in normal versus awkward shoulder postures
+author: "Romain Martinez^a^"
+date: |
+  ^a^Laboratoire de Simulation et Modélisation du Mouvement, Département de Kinésiologie, Université de Montréal, 1700 Rue Jacques-Tétreault, Laval, Québec, Canada;\
+# bibliography: bib/library.bib
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: latex/preamble.tex
+    toc: no
+  bookdown::word_document2:
+    reference_docx: template_TF.docx
+indent: true
+fig_caption: yes
+toc: no
+fontsize: 12pt
+linestretch: 1.5
+link-citations: yes
+number_sectons: yes
+documentclass: article
+papersize: letter
+site: bookdown::bookdown_site
+csl: chicago-author-date.csl
+---
+```{r setup, include = F}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+```
