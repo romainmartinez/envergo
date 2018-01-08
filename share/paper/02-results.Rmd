@@ -1,5 +1,24 @@
 # Results
 
-## Torque-Angle-Velocity Model
-
 ## Model Parameters
+The one-way MANOVA reaches significance at either flexion and extension contractions ($X^2 = 73.97, p<0.001$ and $X^2 = 101.02, p<0.001$, respectively).
+
+### Flexion
+[Insert figure\ 1 here]
+
+Nine paired Hotelling's $T^2$ tests conducted on flexion contractions (Fig. 1) reach significance (p<0.05).
+
+[Insert figure\ 2 here]
+
+### Extension
+[Insert figure\ 3 here]
+
+Thirteen paired Hotelling's $T^2$ tests conducted on extension contractions (Fig. 3) reach significance (p<0.05).
+
+[Insert figure\ 4 here]
+
+
+
+
+
+## Torque-Angle-Velocity Model

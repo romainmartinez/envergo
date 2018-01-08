@@ -1,1 +1,5 @@
-# Figures
+# Figures Captions
+
+Figure\ 1. The three phases of a hips-eyes lifting movement: the pulling (1-20% of the trial duration), lifting (21-60%) and dropping phases (61-100%).
+
+![](../fig/illustrator/0d/flex_hotelling.pdf)
