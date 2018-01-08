@@ -3,7 +3,7 @@ title: Maximal elbow torque for task-specific evaluation in normal versus awkwar
 author: "Romain Martinez^a^"
 date: |
   ^a^Laboratoire de Simulation et Modélisation du Mouvement, Département de Kinésiologie, Université de Montréal, 1700 Rue Jacques-Tétreault, Laval, Québec, Canada;\
-# bibliography: bib/library.bib
+bibliography: bib/lib.bib
 output:
   bookdown::pdf_book:
     includes:

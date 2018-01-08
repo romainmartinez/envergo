@@ -1,3 +1,18 @@
 # Methods
+**à rajouter dans la partie traitement**
+
+- caractéristiques de la matrice torque-angle-velocity (range angle, range velocité, etc.)
+- remplacement des nans par la moyenne des données de la même position
 
 ## Statistics
+All the statistical tests described in the following paragraphs were conducted on the flexion and extension contractions using a non-parametric method ($\alpha=0.05$, $\text{iterations}=10,000$) with the `spm1d` package [@Pataky2010].
+
+### Model Parameters
+A one-way MANOVA (positions) was applied on the model parameters.
+If the MANOVA reaches significance, separate paired Hotelling's $T^2$ tests were conducted on each pair of positions.
+If those tests reach significance, additional paired t-tests were applied on each model parameters.
+
+### Torque-Angle-Velocity Model
+The torque-angle-velocity matrix (41 angles by 73 velocities) was flattened into a vector (2993 points) to allow the statistical tests to be conducted using statiscal parametric mapping [@Pataky2010].
+A one-way repeated measures ANOVA (positions) was applied on this vector to compute a critical threshold.
+Additional paired t-tests were applied on each pair of positions on the significant areas given by the ANOVA.

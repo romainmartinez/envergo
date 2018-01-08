@@ -1,6 +1,6 @@
-# 1D Statistisc
+# 1D Statistics
 
-1. Flatten matrix (37x73 --> 2701) (**update values**)
+1. Flatten matrix (41x73 --> 2993)
 2. Replace missing observations by the mean of the corresponding positions
   - X nans: Y%
 3. Non-parametric one-way ANOVA repeated measure (_on positions_)
@@ -9,7 +9,7 @@
   - to compute a critical threshold
   - One caveat is that this pertains only to continuum-level inference (i.e. a critical threshold)
   - alpha: 0.05
-  - iterations: 10,00
+  - iterations: 10,000
   - Insert Fig. 1: ANOVA
     - only significant
     - reshaped data
@@ -28,7 +28,7 @@
     - reshaped data
     - mean differences
 
-# 0D Statistisc
+# 0D Statistics
 
 1. Replace missing observations by the mean of the corresponding positions
   - 63 nans over 1470 observations: 4.3%
