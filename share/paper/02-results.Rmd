@@ -6,19 +6,44 @@ The one-way MANOVA reaches significance at either flexion and extension contract
 ### Flexion
 [Insert figure\ 1 here]
 
-Nine paired Hotelling's $T^2$ tests conducted on flexion contractions (Fig. 1) reach significance (p<0.05).
+Nine out of fifteen paired Hotelling's $T^2$ tests conducted on flexion contractions (Fig. 1) reach significance (p<0.05).
 
 [Insert figure\ 2 here]
+
+__post-hoc__
 
 ### Extension
 [Insert figure\ 3 here]
 
-Thirteen paired Hotelling's $T^2$ tests conducted on extension contractions (Fig. 3) reach significance (p<0.05).
+Thirteen out of fifteen paired Hotelling's $T^2$ tests conducted on extension contractions (Fig. 3) reach significance (p<0.05).
 
 [Insert figure\ 4 here]
 
-
-
-
+__post-hoc__
 
 ## Torque-Angle-Velocity Model
+
+### Flexion
+[Insert figure\ 5 here]
+
+The main effect of position from the one-way ANOVA (Fig. 5) reaches significance (p<0.05) in the area that includes angles around 90 degrees (from 68 to 123 degrees) and high positive velocities (from 75 to 180 $^\circ.\text{s}^{-1}$).
+The F-value is constant in this significant area (from 4 to 6).
+
+[Insert figure\ 6 here]
+
+Only six out of fifteen additional paired t-tests applied on each pair of positions reach significance in the area given by the ANOVA (Fig. 6).
+In this area, the elbow torque generated in the F0ER, A90ER and A90IR is significantly lower compared to the F90ER and F180ER positions.
+Hence, the elbow torque is greater when the glenohumeral joint is at 90 degrees of flexion compared to other positions during flexion contractions at angles around 90 degrees and at high positive velocities.
+
+### Extension
+[Insert figure\ 7 here]
+
+The main effect of position from the one-way ANOVA (Fig. 7) reaches significance (p<0.05) in every combinations of angle and velocity, excluding the area around 90 degrees (from 65 to 86 degrees) and low negative velocities (from 0 to -129$^\circ.\text{s}^{-1}$).
+The F-value reaches its maximum (15) around high velocities (100-180) and angles close to 90 degrees (80-110 degrees).
+
+[Insert figure\ 8 here]
+
+Thirteen out of fifteen additional paired t-tests applied on each pair of positions reach significance in the area given by the ANOVA (Fig. 8).
+Taken together, these tests suggest that the position's elbow torque generation is on the following order (from greatest to least): F0ER, F90ER, A90IR, F90IR, A90ER, F180ER.
+Note that F90ER and A90IR are switched when the angle is below 90 degrees.
+Most differences appear over the full velocity range (10 out of 15) except F0ER vs A90IR, F180ER vs F90IR, A90ER vs F90IR which occur at high positive velocities.
