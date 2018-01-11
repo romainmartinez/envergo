@@ -3,6 +3,7 @@
 
 - caractéristiques de la matrice torque-angle-velocity (range angle, range velocité, etc.)
 - remplacement des nans par la moyenne des données de la même position
+- description de chaque paramètre et de leur acronyme (P1:P7)
 
 ## Statistics
 All the statistical tests described in the following paragraphs were conducted on the flexion and extension contractions using a non-parametric method ($\alpha=0.05$, $\text{iterations}=10,000$) with the `spm1d` package [@Pataky2010].
