@@ -14,6 +14,6 @@ If the MANOVA reaches significance, separate paired Hotelling's $T^2$ tests were
 If those tests reach significance, additional paired t-tests were applied on each model parameters.
 
 ### Torque-Angle-Velocity Model
-The torque-angle-velocity matrix (41 angles by 73 velocities) was flattened into a vector (2993 points) to allow the statistical tests to be conducted using statiscal parametric mapping [@Pataky2010].
+The torque-angle-velocity matrix (41 angles by 73 velocities) was flattened into a vector (2993 points) to allow the statistical tests to be conducted using statistical parametric mapping [@Pataky2010].
 A one-way repeated measures ANOVA (positions) was applied on this vector to compute a critical threshold.
 Additional paired t-tests were applied on each pair of positions on the significant areas given by the ANOVA.

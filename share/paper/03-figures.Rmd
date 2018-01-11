@@ -2,15 +2,15 @@
 
 <!-- 0dFlexHotelling -->
 
-(ref:0dFlexHotelling) . Legend.
+(ref:0dFlexHotelling) . T statistic of Hotelling's $T^2$ tests conducted on the model parameters of each pair of positions during flexion contractions, with a color gradient associated with the amplitude of the T statistic (empty and white if nonsignificant). The gray rectangles on the diagonal represent an intersection between the same position.
 
 ```{r 0dFlexHotelling, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dFlexHotelling)'}
 knitr::include_graphics("../fig/illustrator/0d/0dFlexHotelling.png", dpi = 300)
 ```
-
+ 
 <!-- 0dFlexPosthoc -->
 
-(ref:0dFlexPosthoc) . Legend.
+(ref:0dFlexPosthoc) . Additional paired t-tests applied on each model parameters (P1 to P7, except P2 which do not reach significance) of each pair of positions during flexion contractions. A colored rectangle is present when the test reaches significance, with a color gradient associated with the amplitude of the difference in percentage between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher). A diagram of each position is displayed on the diagonal.
 
 ```{r 0dFlexPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dFlexPosthoc)'}
 knitr::include_graphics("../fig/illustrator/0d/0dFlexPosthoc.png", dpi = 300)
@@ -18,7 +18,7 @@ knitr::include_graphics("../fig/illustrator/0d/0dFlexPosthoc.png", dpi = 300)
 
 <!-- 0dExtHotelling -->
 
-(ref:0dExtHotelling) . Coucou.
+(ref:0dExtHotelling) . T statistic of Hotelling's $T^2$ tests conducted on the model parameters of each pair of positions during extension contractions, with a color gradient associated with the amplitude of the T statistic (empty and white if nonsignificant). The gray rectangles on the diagonal represent an intersection between the same position.
 
 ```{r 0dExtHotelling, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dExtHotelling)'}
 knitr::include_graphics("../fig/illustrator/0d/0dExtHotelling.png", dpi = 300)
@@ -26,7 +26,7 @@ knitr::include_graphics("../fig/illustrator/0d/0dExtHotelling.png", dpi = 300)
 
 <!-- 0dExtPosthoc -->
 
-(ref:0dExtPosthoc) . Legend.
+(ref:0dExtPosthoc) . Additional paired t-tests applied on each model parameters (P1 to P7, except P2 which do not reach significance) of each pair of positions during extension contractions. A colored rectangle is present when the test reaches significance, with a color gradient associated with the amplitude of the difference in percentage between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher). A representation of each position is displayed on the diagonal.
 
 ```{r 0dExtPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dExtPosthoc)'}
 knitr::include_graphics("../fig/illustrator/0d/0dExtPosthoc.png", dpi = 300)
@@ -34,7 +34,7 @@ knitr::include_graphics("../fig/illustrator/0d/0dExtPosthoc.png", dpi = 300)
 
 <!-- 1dFlexAnova -->
 
-(ref:1dFlexAnova) . Legend.
+(ref:1dFlexAnova) . F-value of the ANOVA applied to the torque-angle-velocity model during flexion contractions. A main effect of position is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the F-value.
 
 ```{r 1dFlexAnova, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dFlexAnova)'}
 knitr::include_graphics("../fig/illustrator/1d/1dFlexAnova.png", dpi = 300)
@@ -42,7 +42,7 @@ knitr::include_graphics("../fig/illustrator/1d/1dFlexAnova.png", dpi = 300)
 
 <!-- 1dFlexPosthoc -->
 
-(ref:1dFlexPosthoc) . Legend.
+(ref:1dFlexPosthoc) . Additional paired t-tests applied on the torque-angle-velocity model of each pair of positions during flexion contractions. A significant difference is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the torque difference between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher). A representation of each position is displayed on the diagonal.
 
 ```{r 1dFlexPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dFlexPosthoc)'}
 knitr::include_graphics("../fig/illustrator/1d/1dFlexPosthoc.png", dpi = 300)
@@ -50,7 +50,7 @@ knitr::include_graphics("../fig/illustrator/1d/1dFlexPosthoc.png", dpi = 300)
 
 <!-- 1dExtAnova -->
 
-(ref:1dExtAnova) . Legend.
+(ref:1dExtAnova) . F-value of the ANOVA applied to the torque-angle-velocity model during extension contractions. A main effect of position is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the F-value.
 
 ```{r 1dExtAnova, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dExtAnova)'}
 knitr::include_graphics("../fig/illustrator/1d/1dExtAnova.png", dpi = 300)
@@ -58,41 +58,8 @@ knitr::include_graphics("../fig/illustrator/1d/1dExtAnova.png", dpi = 300)
 
 <!-- 1dExtPosthoc -->
 
-(ref:1dExtPosthoc) . Legend.
+(ref:1dExtPosthoc) . Additional paired t-tests applied on the torque-angle-velocity model of each pair of positions during flexion contractions. A significant difference is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the torque difference between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher). A representation of each position is displayed on the diagonal.
 
 ```{r 1dExtPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dExtPosthoc)'}
 knitr::include_graphics("../fig/illustrator/1d/1dExtPosthoc.png", dpi = 300)
 ```
-
-<!-- 0D -->
-
-Figure\ 1. T statistic of Hotelling's $T^2$ tests conducted on the model parameters of each pair of positions during flexion contractions, with a color gradient associated with the amplitude of the T statistic (empty and white if nonsignificant).
-The gray rectangles on the diagonal represent an intersection between the same position.
-
-Figure\ 2. Additional paired t-tests applied on each model parameters (P1 to P7, except P2 which do not reach significance) of each pair of positions during flexion contractions.
-A colored rectangle is present when the test reaches significance, with a color gradient associated with the amplitude of the difference in percentage between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher).
-A description of each position is displayed on the diagonal.
-
-Figure\ 3. T statistic of Hotelling's $T^2$ tests conducted on the model parameters of each pair of positions during extension contractions, with a color gradiant associated with the amplitude of the T statistic (empty and white if non-significant).
-The gray rectangles on the diagonal represent an intersection between the same position.
-
-Figure\ 4. Additional paired t-tests applied on each model parameters (P1 to P7, except P2 which do not reach significance) of each pair of positions during extension contractions.
-A colored rectangle is present when the test reaches significance, with a color gradient associated with the amplitude of the difference in percentage between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher).
-A description of each position is displayed on the diagonal.
-
-<!-- 1D -->
-
-Figure\ 5. F-value of the ANOVA applied to the torque-angle-velocity model during flexion contractions. A main effect of position is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the F-value.
-
-Figure\ 6. Additional paired t-tests applied on the torque-angle-velocity model of each pair of positions during flexion contractions.
-A significant difference is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the torque difference between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher).
-A description of each position is displayed on the diagonal.
-
-Figure\ 7. F-value of the ANOVA applied to the torque-angle-velocity model during extension contractions.
-A main effect of position is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the F-value.
-
-Figure\ 8. Additional paired t-tests applied on the torque-angle-velocity model of each pair of positions during flexion contractions.
-A significant difference is displayed with a colored rectangle on the X-Y space (angle vs velocity), with a color gradient associated with the amplitude of the torque difference between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher).
-A description of each position is displayed on the diagonal.
-
-<!-- --- -->
