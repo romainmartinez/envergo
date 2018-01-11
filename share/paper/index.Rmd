@@ -1,6 +1,6 @@
 ---
 title: Maximal elbow torque for task-specific evaluation in normal versus awkward shoulder postures
-author: "Romain Martinez^a^"
+author: "D. Haering, R. Martinez^a^, XXX, G. Dumont, C. Pontonnier"
 date: |
   ^a^Laboratoire de Simulation et Modélisation du Mouvement, Département de Kinésiologie, Université de Montréal, 1700 Rue Jacques-Tétreault, Laval, Québec, Canada;\
 bibliography: bib/lib.bib
