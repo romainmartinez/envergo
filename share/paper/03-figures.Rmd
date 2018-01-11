@@ -1,4 +1,68 @@
-# Figures Captions
+# Figures
+
+<!-- 0dFlexHotelling -->
+
+(ref:0dFlexHotelling) . Legend.
+
+```{r 0dFlexHotelling, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dFlexHotelling)'}
+knitr::include_graphics("../fig/illustrator/0d/0dFlexHotelling.png", dpi = 300)
+```
+
+<!-- 0dFlexPosthoc -->
+
+(ref:0dFlexPosthoc) . Legend.
+
+```{r 0dFlexPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dFlexPosthoc)'}
+knitr::include_graphics("../fig/illustrator/0d/0dFlexPosthoc.png", dpi = 300)
+```
+
+<!-- 0dExtHotelling -->
+
+(ref:0dExtHotelling) . Coucou.
+
+```{r 0dExtHotelling, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dExtHotelling)'}
+knitr::include_graphics("../fig/illustrator/0d/0dExtHotelling.png", dpi = 300)
+```
+
+<!-- 0dExtPosthoc -->
+
+(ref:0dExtPosthoc) . Legend.
+
+```{r 0dExtPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dExtPosthoc)'}
+knitr::include_graphics("../fig/illustrator/0d/0dExtPosthoc.png", dpi = 300)
+```
+
+<!-- 1dFlexAnova -->
+
+(ref:1dFlexAnova) . Legend.
+
+```{r 1dFlexAnova, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dFlexAnova)'}
+knitr::include_graphics("../fig/illustrator/1d/1dFlexAnova.png", dpi = 300)
+```
+
+<!-- 1dFlexPosthoc -->
+
+(ref:1dFlexPosthoc) . Legend.
+
+```{r 1dFlexPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dFlexPosthoc)'}
+knitr::include_graphics("../fig/illustrator/1d/1dFlexPosthoc.png", dpi = 300)
+```
+
+<!-- 1dExtAnova -->
+
+(ref:1dExtAnova) . Legend.
+
+```{r 1dExtAnova, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dExtAnova)'}
+knitr::include_graphics("../fig/illustrator/1d/1dExtAnova.png", dpi = 300)
+```
+
+<!-- 1dExtPosthoc -->
+
+(ref:1dExtPosthoc) . Legend.
+
+```{r 1dExtPosthoc, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:1dExtPosthoc)'}
+knitr::include_graphics("../fig/illustrator/1d/1dExtPosthoc.png", dpi = 300)
+```
 
 <!-- 0D -->
 
