@@ -1,3 +1,13 @@
+# TODO
+
+- photos caisses
+- model parameter
+  - P1 et P3 importants (paramètres isométriques: capacité de force max)
+  - P2 sans différences
+  - P4 et P5 (paramètres concentriques: )
+- trouver des refs couples articulaires au coude pendant tâches de manutention.
+
+
 # Methods
 **à rajouter dans la partie traitement**
 

@@ -7,7 +7,7 @@
 ```{r 0dFlexHotelling, fig.width=7, fig.asp=0.618, out.width="80%", fig.align='center', fig.cap='(ref:0dFlexHotelling)'}
 knitr::include_graphics("../fig/illustrator/0d/0dFlexHotelling.png", dpi = 300)
 ```
- 
+
 <!-- 0dFlexPosthoc -->
 
 (ref:0dFlexPosthoc) . Additional paired t-tests applied on each model parameters (P1 to P7, except P2 which do not reach significance) of each pair of positions during flexion contractions. A colored rectangle is present when the test reaches significance, with a color gradient associated with the amplitude of the difference in percentage between the pair of positions (purple when the parameter of the position in column is higher, green when the parameter of the position in row is higher). A diagram of each position is displayed on the diagonal.
