@@ -1,6 +1,0 @@
-numpy
-seaborn
-scipy
-pandas
-matplotlib
-spm1d
